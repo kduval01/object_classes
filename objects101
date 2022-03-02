@@ -1,0 +1,46 @@
+class Person:
+    # college_students = True
+    def __init__(self, name, age, city, gender, eat, study, sleep, college_students):
+        self.name = name
+        self.age = age
+        self.city = city
+        self.gender = gender
+        self.eat = eat
+        self.study = study
+        self.sleep = sleep
+        self.college_students = True
+
+        def myfunc(self):
+            print("Big Boss " + self.name)
+
+        def Are_they_college_students(self): 
+            self.college_students = False  
+
+    
+p1 = Person("Kanaan", 26, "Riverdale", "Male", "Vegetables", "Business", "8hours", "college_students")
+# p1.myfunc()
+
+p2 = Person("Cora", 45, "Decatur", "Female", "Meat", "Medicine", "5hours", "college_students")
+# p2.myfunc()
+
+
+print(p1.name)
+print(p1.age)
+print(p1.city)
+print(p1.gender)
+print(p1.eat)
+print(p1.study)
+print(p1.sleep)
+print(p1.college_students)
+
+
+print(p2.name)
+print(p2.age)
+print(p2.city)
+print(p2.gender)
+print(p2.eat)
+print(p2.study)
+print(p2.sleep) 
+
+
+
